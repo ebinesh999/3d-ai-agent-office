@@ -1,0 +1,23 @@
+1. Install Node.js (LTS version) from nodejs.org. The project needs it.
+2. Install Ollama from ollama.com and pull a model
+ollama --version
+ollama pull llama3.2
+ollama list
+ollama run llama3.2
+>>> What is an AI agent? Explain with an example.
+
+Create a Vite + React + TypeScript app using React Three Fiber. Show a simple low-poly office floor with 4 desks and an orbit camera. Tell me how to run it. - A 3D room in your browser
+
+“Add one character (a capsule is fine for now) that walks smoothly to whichever desk I click.” - Movement working
+
+“Add a Node.js + WebSocket server that owns the world state (agent positions, status). The frontend should only render what the server sends.” - Same behaviour, now driven by the server
+
+cd c:\Users\Trident\Documents\Batman\Prep_Stuffs\3d-model-AiAgents
+npm run dev:all
+
+“Add an agent loop on the server: every few seconds, call Ollama with the agent’s role and surroundings, and get back JSON like {action: 'walk_to', target: 'desk_2'} or {action: 'say', text: '...'}. Execute that action.” - The character deciding on its own
+
+“Support 3 agents with different roles who can talk to each other. Show speech bubbles above their heads.” - Agents conversing
+
+
+“Replace the capsules with animated Mixamo characters (idle/walk), add SQLite memory per agent, and a side panel showing each agent’s thoughts.” - Something close to the repo, in 3D
