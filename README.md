@@ -7,6 +7,8 @@ Autonomous AI agents with distinct roles move between workstations, hold convers
 Built using React, Three.js, Node.js, TypeScript, WebSockets, SQLite, and Ollama.
 
 > **Zero lock-in, fully local.** Everything runs on your machine with [Ollama](https://ollama.com). No API keys, no cloud, no cost per token.
+>
+> https://github.com/ebinesh999/3d-ai-agent-office/blob/main/demo.mp4
 
 <!-- Add a screenshot or GIF of the office here, e.g. <img src="docs/screenshot.png" width="800" alt="3D AI Agent Office"> -->
 
